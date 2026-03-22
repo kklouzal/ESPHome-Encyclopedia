@@ -48,7 +48,7 @@ Capture:
 ## Suggested official-doc cache targets
 
 Common first-wave docs worth caching when they come up:
-- `/components/index.html`
+- `/components/index.html` (treat this as the primary docs entry point)
 - `/components/esphome.html`
 - `/components/esp32.html`
 - `/components/esp8266.html`

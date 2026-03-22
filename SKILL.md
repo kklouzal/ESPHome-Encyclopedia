@@ -7,7 +7,7 @@ description: ESPHome documentation-first workflow for ESPHome-specific questions
 
 ## Overview
 
-Use a docs-first workflow for ESPHome work. Prefer the official ESPHome documentation at `https://esphome.io/`, consult cached local copies under `.ESPHome-Encyclopedia/` before re-fetching, and record useful official-doc excerpts plus environment-specific operational learnings so future work gets faster and safer.
+Use a docs-first workflow for ESPHome work. Prefer the official ESPHome component documentation index at `https://esphome.io/components/`, consult cached local copies under `.ESPHome-Encyclopedia/` before re-fetching, and record useful official-doc excerpts plus environment-specific operational learnings so future work gets faster and safer.
 
 ## Workflow
 
