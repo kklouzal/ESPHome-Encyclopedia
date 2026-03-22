@@ -1,6 +1,6 @@
 ---
 name: esphome-encyclopedia
-description: ESPHome documentation-first workflow for ESPHome-specific questions, YAML/config authoring, component selection, substitutions/packages usage, device definitions, secrets handling, OTA/update planning, build/compile troubleshooting, sensor/actuator tuning, logs, diagnostics, and live ESPHome dashboard or node maintenance. Use whenever ESPHome, esphome, ESP32, ESP8266, YAML device configs, dashboards, packages, substitutions, secrets.yaml, entities defined in ESPHome, OTA flashing, compile errors, component options, pin assignments, Wi-Fi provisioning, or ESPHome node troubleshooting is mentioned, implied, or required. Also use before answering direct or indirect ESPHome questions and before performing direct ESPHome configuration or operational work.
+description: ESPHome documentation-first workflow for ESPHome-specific questions, YAML/config authoring, config review, component selection, substitutions/packages usage, device definitions, secrets handling, OTA/update planning, build/compile troubleshooting, sensor/actuator tuning, logs, diagnostics, and live ESPHome dashboard or node maintenance. Use whenever ESPHome, esphome, ESP32, ESP8266, YAML device configs, dashboards, packages, substitutions, secrets.yaml, OTA flashing, compile errors, pin assignments, Wi-Fi provisioning, or ESPHome node troubleshooting is mentioned, implied, or required. Also use whenever a request involves specific ESPHome components or YAML sections such as `sensor:`, `binary_sensor:`, `switch:`, `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`, `api:`, `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`, `packages:`, or `substitutions:` so the agent checks the latest authoritative ESPHome component docs before answering or editing configs. Also use before answering direct or indirect ESPHome questions and before performing direct ESPHome configuration or operational work.
 ---
 
 # ESPHome Encyclopedia
@@ -27,6 +27,7 @@ Use a docs-first workflow for ESPHome work. Prefer the official ESPHome document
 
 3. **Consult official ESPHome docs before answering or touching configs/nodes**
    - Before answering direct or indirect ESPHome questions that depend on YAML syntax, component behavior, version-sensitive options, dashboard behavior, OTA/update expectations, or pin/component constraints, consult the official docs unless the answer is already well-supported by the local cache.
+   - When working on ESPHome YAML, look up the docs for the exact individual components/sections in play instead of relying only on general ESPHome knowledge. If a config touches `sensor`, `binary_sensor`, `switch`, `light`, `output`, `display`, `climate`, `cover`, `wifi`, `api`, `ota`, `logger`, `web_server`, `packages`, `substitutions`, or board/platform sections, check those exact component pages so the latest supported options and nesting are used.
    - Before performing direct ESPHome configuration or dashboard/node work, consult the relevant docs first when:
      - exact option names or nesting matter
      - component behavior is easy to misremember
