@@ -1,6 +1,7 @@
 ---
 name: esphome-encyclopedia
 description: ESPHome documentation-first workflow for ESPHome-specific questions, YAML/config authoring, config review, component selection, substitutions/packages usage, device definitions, secrets handling, OTA/update planning, build/compile troubleshooting, sensor/actuator tuning, logs, diagnostics, and live ESPHome dashboard or node maintenance. Use whenever ESPHome, esphome, ESP32, ESP8266, YAML device configs, dashboards, packages, substitutions, secrets.yaml, OTA flashing, compile errors, pin assignments, Wi-Fi provisioning, or ESPHome node troubleshooting is mentioned, implied, or required. Also use whenever a request involves specific ESPHome components or YAML sections such as `sensor:`, `binary_sensor:`, `switch:`, `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`, `api:`, `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`, `packages:`, or `substitutions:` so the agent checks the latest authoritative ESPHome component docs before answering or editing configs. Also use before answering direct or indirect ESPHome questions and before performing direct ESPHome configuration or operational work.
+metadata: {"openclaw":{"emoji":"🔌","homepage":"https://esphome.io/components/"}}
 ---
 
 # ESPHome Encyclopedia
