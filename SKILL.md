@@ -1,21 +1,22 @@
 ---
 name: esphome-encyclopedia
 description: >-
-  ESPHome documentation-first workflow for ESPHome-specific questions,
-  YAML/config authoring, config review, component selection,
-  substitutions/packages usage, device definitions, secrets handling,
-  OTA/update planning, build/compile troubleshooting, sensor/actuator tuning,
-  logs, diagnostics, and live dashboard or node maintenance. Use when the
-  request is clearly about ESPHome or an ESPHome device/config:
-  ESPHome/esphome, ESP32/ESP8266 in an ESPHome context, ESPHome dashboards,
-  packages, substitutions, secrets.yaml, OTA flashing, compile errors, pin
-  assignments, Wi-Fi provisioning, or node troubleshooting. Also use when
-  ESPHome YAML sections such as `sensor:`, `binary_sensor:`, `switch:`,
-  `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`, `api:`,
-  `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`, `packages:`, or
-  `substitutions:` appear in an ESPHome configuration context. Do not use for
-  generic YAML, Home Assistant, Arduino, or embedded questions unless they are
-  specifically about ESPHome.
+  ESPHome configuration/component documentation-first workflow for
+  ESPHome-specific questions, YAML/config authoring, config review,
+  component selection, substitutions/packages usage, device definitions,
+  secrets handling, OTA/update planning, build/compile troubleshooting,
+  sensor/actuator tuning, logs, diagnostics, and live dashboard or node
+  maintenance. Use when the request is clearly about ESPHome or an ESPHome
+  node/config: ESPHome/esphome, ESP32/ESP8266 in an ESPHome context, ESPHome
+  dashboards, packages, substitutions, `secrets.yaml`, OTA flashing, compile
+  errors, pin assignments, Wi-Fi provisioning, or node troubleshooting. Also
+  use when ESPHome YAML sections such as `sensor:`, `binary_sensor:`,
+  `switch:`, `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`,
+  `api:`, `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`,
+  `packages:`, or `substitutions:` appear in an ESPHome configuration
+  context. Do not use for generic YAML, generic embedded/microcontroller
+  programming, generic Home Assistant automation, or Arduino/C++ questions
+  unless they are specifically about ESPHome.
 metadata: {"openclaw":{"emoji":"🔌","homepage":"https://esphome.io/components/"}}
 ---
 
@@ -25,12 +26,14 @@ metadata: {"openclaw":{"emoji":"🔌","homepage":"https://esphome.io/components/
 
 Use a docs-first workflow for ESPHome work. Prefer the official ESPHome component documentation index at `https://esphome.io/components/`, consult cached local copies under `.ESPHome-Encyclopedia/` before re-fetching, and record useful official-doc excerpts plus environment-specific operational learnings so future work gets faster and safer.
 
+This skill is for the **ESPHome config/component layer**: node YAML, dashboard/node operations, and ESPHome-specific component semantics. It should not trigger for generic YAML editing, generic Home Assistant work, or general embedded programming unless ESPHome is truly the thing being discussed.
+
 ## Workflow
 
 1. **Classify the task**
    - Decide whether the task is an ESPHome question, YAML authoring task, config review, component-selection task, troubleshooting task, or live dashboard/node task.
    - Use this skill when the task materially depends on ESPHome syntax, component semantics, supported options, build/runtime behavior, dashboard behavior, or node operations.
-   - Do not use this skill for generic YAML editing, generic microcontroller work, or generic Home Assistant questions unless the ESPHome layer is actually in play.
+   - Do not use this skill for generic YAML editing, generic microcontroller work, generic Home Assistant automation, or Arduino/C++ questions unless the ESPHome layer is actually in play.
 
 2. **Check local cache first**
    - Use `.ESPHome-Encyclopedia/` as the local knowledge/cache root.
