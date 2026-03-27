@@ -1,6 +1,21 @@
 ---
 name: esphome-encyclopedia
-description: ESPHome documentation-first workflow for ESPHome-specific questions, YAML/config authoring, config review, component selection, substitutions/packages usage, device definitions, secrets handling, OTA/update planning, build/compile troubleshooting, sensor/actuator tuning, logs, diagnostics, and live dashboard or node maintenance. Use when the request is clearly about ESPHome or an ESPHome device/config: ESPHome/esphome, ESP32/ESP8266 in an ESPHome context, ESPHome dashboards, packages, substitutions, secrets.yaml, OTA flashing, compile errors, pin assignments, Wi-Fi provisioning, or node troubleshooting. Also use when ESPHome YAML sections such as `sensor:`, `binary_sensor:`, `switch:`, `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`, `api:`, `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`, `packages:`, or `substitutions:` appear in an ESPHome configuration context. Do not use for generic YAML, Home Assistant, Arduino, or embedded questions unless they are specifically about ESPHome.
+description: >-
+  ESPHome documentation-first workflow for ESPHome-specific questions,
+  YAML/config authoring, config review, component selection,
+  substitutions/packages usage, device definitions, secrets handling,
+  OTA/update planning, build/compile troubleshooting, sensor/actuator tuning,
+  logs, diagnostics, and live dashboard or node maintenance. Use when the
+  request is clearly about ESPHome or an ESPHome device/config:
+  ESPHome/esphome, ESP32/ESP8266 in an ESPHome context, ESPHome dashboards,
+  packages, substitutions, secrets.yaml, OTA flashing, compile errors, pin
+  assignments, Wi-Fi provisioning, or node troubleshooting. Also use when
+  ESPHome YAML sections such as `sensor:`, `binary_sensor:`, `switch:`,
+  `light:`, `output:`, `display:`, `climate:`, `cover:`, `wifi:`, `api:`,
+  `ota:`, `logger:`, `web_server:`, `esp32:`, `esp8266:`, `packages:`, or
+  `substitutions:` appear in an ESPHome configuration context. Do not use for
+  generic YAML, Home Assistant, Arduino, or embedded questions unless they are
+  specifically about ESPHome.
 metadata: {"openclaw":{"emoji":"🔌","homepage":"https://esphome.io/components/"}}
 ---
 
